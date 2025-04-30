@@ -1,0 +1,5 @@
+PYTHON
+
+- tudo em python é considerado objeto
+
+quando utiliza-se os ... o compilador não gera erro e isto significa que podemos mais tarde concluir a ideia que tinhamos e se deixou. Ex: line = ...
