@@ -13,3 +13,10 @@ Nota: Alterando alguem indice em uma das listas a alteração também irá ser r
 
 print(f'{number_3:.2f}') neste caso é retornado zeros á direita caso existam porque está a ser imprimido como string
 decimal.Decimal(0.1) #decimal.Decimal -> usado quando precisamos de uma precisão extrema do número decimal
+
+Interpretador do Python
+-> python mod.py (executa o mod)
+-> python -u (unbuffered)
+-> python -m mod (lib mod com script)
+-> python -c 'cmd' (comando)
+-> python -i mod.py (interativo com mod)
