@@ -2,4 +2,11 @@ PYTHON
 
 - tudo em python é considerado objeto
 
-quando utiliza-se os ... o compilador não gera erro e isto significa que podemos mais tarde concluir a ideia que tinhamos e se deixou. Ex: line = ...
+quando utiliza-se os ... o compilador não gera erro e isto significa que podemos mais tarde concluir a ideia que tínhamos e se deixou. Ex: line = …
+
+dados imutáveis: dados que não podem ser alterados depois de criados
+dados mutáveis: dados que podem ser alterados depois de criados
+
+listaA = ['Filipe', 'Maria']
+listaB = listaA => a listaB aponta para o mesmo valor da memória da listaA e não é uma cópia de listaA para listaB
+Nota: Alterando alguem indice em uma das listas a alteração também irá ser refletida na outra
