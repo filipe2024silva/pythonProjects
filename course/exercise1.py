@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 name = input("Type your name: ")
 age = input("Type your age: ")
 

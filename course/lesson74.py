@@ -1,4 +1,7 @@
 #Closure-> Manter estado entre chamadas de função sem usar variáveis globais ou classes
+import os
+os.system('cls')
+
 def create_welcome(msg):
     def welcome(name):
         return f'{msg}, {name}!'

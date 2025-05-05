@@ -9,7 +9,7 @@ dados mutáveis: dados que podem ser alterados depois de criados
 
 listaA = ['Filipe', 'Maria']
 listaB = listaA => a listaB aponta para o mesmo valor da memória da listaA e não é uma cópia de listaA para listaB
-Nota: Alterando alguem indice em uma das listas a alteração também irá ser refletida na outra
+Nota: Alterando alguem indice em uma das listas a alteração também irá ser refletida na outra devido a estar apontar para o mesmo endereço de memória
 
 print(f'{number_3:.2f}') neste caso é retornado zeros á direita caso existam porque está a ser imprimido como string
 decimal.Decimal(0.1) #decimal.Decimal -> usado quando precisamos de uma precisão extrema do número decimal
@@ -20,3 +20,13 @@ Interpretador do Python
 -> python -m mod (lib mod com script)
 -> python -c 'cmd' (comando)
 -> python -i mod.py (interativo com mod)
+
+Em um dicionário que tenha Keys iguais apenas a ultima é contemplada, pois o python atualiza as Keys caso elas se repitam
+
+d1 = {
+    'c1':1,
+    'c2':2,
+    'l1':[1, 2, 3]
+}
+
+d2 = d1.copy() -> apenas copia os dados que são imutáveis(), os dados mutáveis(lista) continuam apontar para o mesmo endereço de memória

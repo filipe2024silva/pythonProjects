@@ -1,5 +1,8 @@
 import re
 import sys
+import os
+
+os.system('cls')
 
 #cpf_user  = '746.824.890-70'.replace('.','').replace('-','')
 

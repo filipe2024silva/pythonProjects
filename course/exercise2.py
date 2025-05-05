@@ -1,4 +1,6 @@
 #Criar funções que duplicam, triplicam e quadriplicam o número recebido como parâmetro
+import os
+os.system('cls')
 
 def create_multi(multiplexer):
     def multi(number):

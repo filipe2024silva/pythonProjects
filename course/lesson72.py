@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 def multi(*args):
     total = 1
     for number in args:

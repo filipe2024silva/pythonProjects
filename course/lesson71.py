@@ -1,3 +1,6 @@
+import os
+os.system('cls')
+
 def sum_numbers(*args):#args packaging the arguments
     total = 0
     for number in args:

@@ -1,4 +1,6 @@
 #Higher Order Functions
+import os
+os.system('cls')
 
 def message(msg, name):
     return f'{msg}, {name}'
