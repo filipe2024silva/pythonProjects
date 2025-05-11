@@ -1,0 +1,25 @@
+import os
+
+os.system('cls')
+
+def create_function(func):
+    def internal(*args, **kwargs):
+        print('')
+        for arg in args:
+            is_string(arg)
+        result = func(*args, **kwargs)
+        return result
+    return internal
+
+@create_function
+
+def inv_string(string):
+    return string[::-1]
+
+def is_string(param):
+    if not isinstance(param, str):
+        raise TypeError('the param must be string')
+
+
+inverted = inv_string('Filipe')
+print(inverted)
